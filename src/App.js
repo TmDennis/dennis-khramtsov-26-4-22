@@ -25,9 +25,9 @@ function App() {
   const [selectedCity,setSelectedCity] = useState('Tel Aviv')
 
   const apiKey='FcLdcpgEBocUV5zaJNd1VB32i6d7KOoD';
-  const AutocompleteSearch =`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${cityName}`;
-  const DailyForecasts=`http://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${apiKey}`
-  const weeklyForecasts=`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${apiKey}`
+  const AutocompleteSearch =`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${cityName}`;
+  const DailyForecasts=`https://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${apiKey}`
+  const weeklyForecasts=`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${apiKey}`
 
 
   /// get Autocomplete search + key 
