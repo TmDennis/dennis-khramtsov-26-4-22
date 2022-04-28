@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dennis-khramtsov-26-4-22/static/css/main.47c2f709.css",
-    "main.js": "/dennis-khramtsov-26-4-22/static/js/main.39d330cc.js",
+    "main.js": "/dennis-khramtsov-26-4-22/static/js/main.37e02de9.js",
     "static/js/787.d62d1c65.chunk.js": "/dennis-khramtsov-26-4-22/static/js/787.d62d1c65.chunk.js",
     "index.html": "/dennis-khramtsov-26-4-22/index.html",
     "main.47c2f709.css.map": "/dennis-khramtsov-26-4-22/static/css/main.47c2f709.css.map",
-    "main.39d330cc.js.map": "/dennis-khramtsov-26-4-22/static/js/main.39d330cc.js.map",
+    "main.37e02de9.js.map": "/dennis-khramtsov-26-4-22/static/js/main.37e02de9.js.map",
     "787.d62d1c65.chunk.js.map": "/dennis-khramtsov-26-4-22/static/js/787.d62d1c65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47c2f709.css",
-    "static/js/main.39d330cc.js"
+    "static/js/main.37e02de9.js"
   ]
 }
