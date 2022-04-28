@@ -78,7 +78,7 @@ export default function Home(props) {
                 <div id='currentWeatherDiv'>
                     <div id='imagCurrent'>
                         {/* icon from server */}
-
+                        <img src={`https://www.accuweather.com/images/weathericons/${props.iconNum}.svg`} id='icon'/>
                         <p id='nameOfCity'>{props.selectedCity}</p>
                         <p id='temperature'>{props.currentWeather[2]} {props.currentWeather[3]} </p>
                     </div>
