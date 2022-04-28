@@ -24,7 +24,7 @@ function App() {
   const [buttonStatment,setbuttonStatment]=useState('Add to Favorite')
   const [selectedCity,setSelectedCity] = useState('Tel Aviv')
 
-  const apiKey='DR8a0at8n20elqBJJAOKwz7dwGe9uwnp';
+  const apiKey='FcLdcpgEBocUV5zaJNd1VB32i6d7KOoD';
   const AutocompleteSearch =`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${cityName}`;
   const DailyForecasts=`http://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${apiKey}`
   const weeklyForecasts=`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=${apiKey}`
