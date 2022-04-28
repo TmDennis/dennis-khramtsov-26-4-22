@@ -1,0 +1,133 @@
+.HomePage{
+    text-align: center;
+  
+    
+}
+
+.searchDiv{
+    position: relative;
+    border: 2px solid black;
+    width: 187px;
+    height: 10px;
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+    
+}
+
+#searchInput{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    height: 30px;
+    border:none;
+    outline: none;
+    
+}
+
+#SearchIcon{
+   
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.WeatherInfo{
+
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+}
+
+#imagCurrent{
+    position: relative;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+}
+#Icon{
+    height: 50px;
+    width: 50px;
+}
+#nameOfCity{
+    width: 150px;
+    position: absolute;
+    left: 50px;
+    top: -20px;
+
+}
+#temperature{
+    width: 50px;
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+.addToFavoritesDiv{
+    position: relative;
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 130px;
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+    top: -70px; 
+    /* margin-top: 0px; */
+    margin-right: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+#favoriteButton{
+    position: relative;
+    left: 15px;
+    box-shadow: 3px 3px;
+    
+}
+#heartIcon{
+    position: relative;
+    right: 60px;
+    top: -24px;
+    height: 35px;
+    width: 35px;
+    
+}
+#weatherText{
+    position: relative;
+  margin-top: 0px; 
+  top: -60px; 
+}
+
+#weeklyDiv{
+    position: relative;
+    display: grid;
+    gap: 5px;
+    grid-auto-flow: column;
+    /* border: 2px solid black; */
+    margin-top: 0px;
+   top: -60px;
+   left: -5px;
+}
+
+.weeklyWeather{
+   
+   border: 2px solid black;
+   height: 100px;
+   /* width: 90px; */
+   
+   
+}
+
+.FavoritesListDiv{
+    position: relative;
+    display: grid;
+    gap: 5px;
+    grid-auto-flow: column;
+    
+}
+.FavoriteCity{
+    border: 2px solid black;
+}
